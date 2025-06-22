@@ -65,7 +65,7 @@ void printRoute(int start, int end) {
 
     cout << "Rute terpendek dari kota " << start << " ke kota " << end << " adalah:" << endl;
     for (size_t i = 0; i < path.size(); ++i) {
-        cout << path[i] << (i == path.size() - 1 ? "" : " -> "); // fungsi lambda
+        cout << path[i] << (i == path.size() - 1 ? "" : " -> "); // fungsi ternary
     }
 }
 
