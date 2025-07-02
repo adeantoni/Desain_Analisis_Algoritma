@@ -158,7 +158,7 @@ class HashTable
             }
         }
 };
-    
+
 int main()
 {
     int size;
@@ -185,7 +185,7 @@ int main()
 
             if (!inputIsValid)
             {
-                cout << "error";
+                cout << "Input is not valid, error" << endl << endl;
             }
         } while (!inputIsValid);
 
