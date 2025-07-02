@@ -83,7 +83,7 @@ void tambah_quadric_probing(int n)
 int prima_atas(int n)
 {
     if (n % 2 == 0)
-    {
+    { 
         n++;
     }
     else
