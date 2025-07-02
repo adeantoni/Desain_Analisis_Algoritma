@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-    int test[5] = {1,2,3,4,5};
+    pair<int, int> test = {2, 5};
 
-    cout << sizeof(test);
+    cout << test.first;
 
     return 0;
 }
